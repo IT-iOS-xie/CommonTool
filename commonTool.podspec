@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
 
   s.name         = "commonTool"
   s.version      = "0.1"
-  s.summary      = "A short description of commonTool."
+  s.summary      = "常用的方法合计，方便开发"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "常用公共方法"
+  s.description  = "常用公共方法，开发常用，提高开发效率"
 
   s.homepage     = "https://github.com/IT-iOS-xie/CommonTool.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -54,7 +54,7 @@ Pod::Spec.new do |s|
   s.author             = { "谢纪伟" => "" }
   # Or just: s.author    = "谢纪伟"
   s.authors            = { "谢纪伟" => "1310377753@qq.com" }
-  s.social_media_url   = "http://twitter.com/xie"
+  # s.social_media_url   = "http://twitter.com/xie"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -89,8 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "CommonTool/commonTool/*.{h,m}"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
