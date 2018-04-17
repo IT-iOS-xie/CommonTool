@@ -15,7 +15,6 @@
 		4CCD7EA62085C2B3000E0BF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD7EA52085C2B3000E0BF1 /* main.m */; };
 		4CCD7EB02085C2B3000E0BF1 /* CommonToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD7EAF2085C2B3000E0BF1 /* CommonToolTests.m */; };
 		4CCD7EBB2085C2B3000E0BF1 /* CommonToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD7EBA2085C2B3000E0BF1 /* CommonToolUITests.m */; };
-		4CCD7ECB2085C2F2000E0BF1 /* YMTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD7ECA2085C2F2000E0BF1 /* YMTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +51,8 @@
 		4CCD7EB62085C2B3000E0BF1 /* CommonToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCD7EBA2085C2B3000E0BF1 /* CommonToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonToolUITests.m; sourceTree = "<group>"; };
 		4CCD7EBC2085C2B3000E0BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CCD7EC92085C2F2000E0BF1 /* YMTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMTool.h; sourceTree = "<group>"; };
-		4CCD7ECA2085C2F2000E0BF1 /* YMTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMTool.m; sourceTree = "<group>"; };
+		4CCD7ECD2085E27F000E0BF1 /* YMTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMTool.h; sourceTree = "<group>"; };
+		4CCD7ECE2085E27F000E0BF1 /* YMTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +103,7 @@
 		4CCD7E952085C2B3000E0BF1 /* CommonTool */ = {
 			isa = PBXGroup;
 			children = (
-				4CCD7EC82085C2D9000E0BF1 /* commonTool */,
+				4CCD7ECC2085E27F000E0BF1 /* Classes */,
 				4CCD7E962085C2B3000E0BF1 /* AppDelegate.h */,
 				4CCD7E972085C2B3000E0BF1 /* AppDelegate.m */,
 				4CCD7E992085C2B3000E0BF1 /* ViewController.h */,
@@ -136,13 +135,13 @@
 			path = CommonToolUITests;
 			sourceTree = "<group>";
 		};
-		4CCD7EC82085C2D9000E0BF1 /* commonTool */ = {
+		4CCD7ECC2085E27F000E0BF1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4CCD7EC92085C2F2000E0BF1 /* YMTool.h */,
-				4CCD7ECA2085C2F2000E0BF1 /* YMTool.m */,
+				4CCD7ECD2085E27F000E0BF1 /* YMTool.h */,
+				4CCD7ECE2085E27F000E0BF1 /* YMTool.m */,
 			);
-			path = commonTool;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +280,6 @@
 				4CCD7E9B2085C2B3000E0BF1 /* ViewController.m in Sources */,
 				4CCD7EA62085C2B3000E0BF1 /* main.m in Sources */,
 				4CCD7E982085C2B3000E0BF1 /* AppDelegate.m in Sources */,
-				4CCD7ECB2085C2F2000E0BF1 /* YMTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
